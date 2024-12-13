@@ -1,0 +1,43 @@
+.app-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: auto;
+    padding: 25px;
+    background-color: #1F509A;
+}
+.app-cont h1 {
+    margin: 0;
+    color: #D4EBF8;
+}
+.btn-cont {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.btn-cont button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 14px;
+    border: none;
+    background-color: #E38E49;
+}
+
+.ip-cont input {
+ padding-left: 10px;
+ height: 25px;
+ background-color: #0A3981;
+ border: none;
+ font-size: 20px;
+ color: #E38E49;
+ padding: 10px !important;
+}
